@@ -1,0 +1,229 @@
+[
+  {
+	"description": "애니오브",
+	"schema": {
+	  "anyOf": [
+		{
+		  "type": "정수"
+		},
+		{
+		  "type": [
+			"integer",
+			"number"
+		  ],
+		  "minimum": 2
+		}
+	  ]
+	},
+	"tests": [
+	  {
+		"description": "첫 번째 애니오브 유효",
+		"data": 1,
+		"valid": true
+	  },
+	  {
+		"description": "두 번째 애니오브 유효",
+		"data": 2.5,
+		"valid": true
+	  },
+	  {
+		"description": "두 애니오브 모두 유효",
+		"data": 3,
+		"valid": true
+	  },
+	  {
+		"description": "두 애니오브 모두 유효하지 않음",
+		"data": 1.5,
+		"valid": false
+	  }
+	]
+  },
+  {
+	"description": "기본 스키마가 있는 애니오브",
+	"schema": {
+	  "type": "문자열",
+	  "anyOf": [
+		{
+		  "maxLength": 2
+		},
+		{
+		  "minLength": 4
+		}
+	  ]
+	},
+	"tests": [
+	  {
+		"description": "기본 스키마 불일치",
+		"data": 3,
+		"valid": false
+	  },
+	  {
+		"description": "하나의 애니오브 유효",
+		"data": "푸바",
+		"valid": true
+	  },
+	  {
+		"description": "두 애니오브 모두 유효하지 않음",
+		"data": "푸",
+		"valid": false
+	  }
+	]
+  },
+  {
+	"description": "부울 스키마가 있는 애니오브, 모두 참",
+	"schema": {
+	  "anyOf": [
+		true,
+		true
+	  ]
+	},
+	"tests": [
+	  {
+		"description": "모든 값이 유효함",
+		"data": "푸",
+		"valid": true
+	  }
+	]
+  },
+  {
+	"description": "부울 스키마가 있는 애니오브, 일부 참",
+	"schema": {
+	  "anyOf": [
+		true,
+		false
+	  ]
+	},
+	"tests": [
+	  {
+		"description": "모든 값이 유효함",
+		"data": "푸",
+		"valid": true
+	  }
+	]
+  },
+  {
+	"description": "부울 스키마가 있는 애니오브, 모두 거짓",
+	"schema": {
+	  "anyOf": [
+		false,
+		false
+	  ]
+	},
+	"tests": [
+	  {
+		"description": "모든 값이 유효하지 않음",
+		"data": "푸",
+		"valid": false
+	  }
+	]
+  },
+  {
+	"description": "anyOf 복합 타입",
+	"schema": {
+	  "type": "객체",
+	  "anyOf": [
+		{
+		  "properties": {
+			"bar": {
+			  "type": "정수"
+			}
+		  },
+		  "required": [
+			"bar"
+		  ]
+		},
+		{
+		  "properties": {
+			"foo": {
+			  "type": "문자열"
+			}
+		  },
+		  "required": [
+			"foo"
+		  ]
+		}
+	  ]
+	},
+	"tests": [
+	  {
+		"description": "첫 번째 anyOf 유효함 (복합)",
+		"data": {
+		  "bar": 2
+		},
+		"valid": true
+	  },
+	  {
+		"description": "두 번째 anyOf 유효함 (복합)",
+		"data": {
+		  "foo": "바즈"
+		},
+		"valid": true
+	  },
+	  {
+		"description": "둘 다 anyOf 유효함 (복합)",
+		"data": {
+		  "foo": "바즈",
+		  "bar": 2
+		},
+		"valid": true
+	  },
+	  {
+		"description": "둘 다 anyOf 유효하지 않음 (복합)",
+		"data": {
+		  "foo": 2,
+		  "bar": "쿽스"
+		},
+		"valid": false
+	  }
+	]
+  },
+  {
+	"description": "하나의 빈 스키마를 가진 anyOf",
+	"schema": {
+	  "anyOf": [
+		{
+		  "type": "숫자"
+		},
+		{}
+	  ]
+	},
+	"tests": [
+	  {
+		"description": "문자열은 유효함",
+		"data": "푸",
+		"valid": true
+	  },
+	  {
+		"description": "숫자는 유효함",
+		"data": 123,
+		"valid": true
+	  }
+	]
+  },
+  {
+	"description": "중첩된 anyOf, 유효성 검사 의미론을 확인하기 위해",
+	"schema": {
+	  "anyOf": [
+		{
+		  "anyOf": [
+			{
+			  "type": "널"
+			}
+		  ]
+		}
+	  ]
+	},
+	"tests": [
+	  {
+		"description": "널은 유효함",
+		"data": null,
+		"valid": true
+	  },
+	  {
+		"description": "널이 아닌 모든 것은 유효하지 않음",
+		"data": 123,
+		"valid": false
+	  }
+	]
+  }
+]
