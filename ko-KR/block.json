@@ -1,0 +1,9 @@
+{
+	"$schema": "https:\/\/schemas.wp.org\/trunk\/block.json",
+	"apiVersion": 2,
+	"title": "예시 테마 블록",
+	"name": "block-theme\/example-block",
+	"description": "테마 내에서 등록된 사용자 정의 블록",
+	"editorScript": "file:.\/index.js",
+	"style": "file:.\/style.css"
+}
