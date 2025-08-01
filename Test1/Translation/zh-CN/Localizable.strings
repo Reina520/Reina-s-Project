@@ -1,0 +1,53 @@
+/* 
+  Localizable.strings
+  MSSlideUnlock
+
+  Created by Jeff Wang on 16/2/3.
+  Copyright © 2016年 Jeff Wang. All rights reserved.
+*/
+
+"MSA_btn_refresh_title" = "刷新";
+"MSA_slide_auth_title" = "验证";
+"MSA_slide_auth_tip_1" = "出于安全原因，本次登录需要验证。";
+"MSA_slide_auth_tip_2" = "请将图标拖动到目标区域。";
+"MSA_slide_auth_tip_3" = "请将标志拖动到目标区域。";
+"MSA_slide_auth_tip_4" = "请摇晃您的手机";
+
+"MSA_sms_auth_title_init" = "短信";
+"MSA_sms_auth_title_sent" = "短信";
+"MSA_sms_auth_title_sent_fail" = "服务器发送验证码失败";
+"MSA_sms_auth_sub_title" = "已防止您的验证码被劫持";
+
+"MSA_call_auth_title" = "语音验证";
+"MSA_call_auth_calling" = "正在呼叫...请留意来电";
+
+"MSA_mobile_no" = "电话号码";
+"MSA_veri_code" = "验证码";
+
+"MSA_sms_auth_send_sms" = "发送";
+"MSA_sms_auth_count_down" = "%lu 秒后重新发送";
+
+"MSA_submit_button" = "提交";
+"MSA_submit_button_waiting" = "阿里巴巴JAQ安全正在验证";
+
+"MSA_switch_auth_from_slide_to_call" = "无法通过？点击此处获取语音验证码";
+
+"MSA_switch_auth_from_slide_to_call1" = "无法通过？";
+"MSA_switch_auth_from_slide_to_call2" = "手机号码已更改";
+"MSA_switch_auth_from_slide_to_call3" = "或接收";
+"MSA_switch_auth_from_slide_to_call4" = "语音验证码";
+
+
+
+"MSA_switch_auth_from_sms_to_call" = "无法接收验证码？点击此处再次接听电话。";
+
+"MSA_alert_cancel" = "取消";
+"MSA_alert_ok" = "确定";
+"MSA_alert_answer" = "接听";
+
+"MSA_veri_code_auth_failed" = "验证码错误。请重新输入。";
+"MSA_veri_code_auth_call_failed" = "验证码错误。请挂断电话并重新发送验证码。";
+
+"MSA_slide_auth_ball_title" = "通过验证码登录";
+
+"MSA_pay_attention_to_call" = "现在接听语音验证电话吗？";
