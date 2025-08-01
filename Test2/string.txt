@@ -1,0 +1,15 @@
+Players explore vast, open-world environments filled with quests and hidden treasures.
+
+Combat mechanics in many games allow players to use a variety of weapons and abilities.
+
+Players can craft new items and weapons using resources found in the game world.
+
+Many games feature multiplayer modes where players can cooperate or compete against each other.
+
+Players must level up their characters to unlock new skills and abilities.
+
+Some games use physics engines to simulate realistic movement and interactions.
+
+The survival genre challenges players to manage hunger, health, and resources in a harsh environment.
+
+In city-building games, players design and manage their own cities, balancing resources and happiness.
