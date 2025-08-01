@@ -1,0 +1,53 @@
+/* 
+  Localizable.strings
+  MSSlideUnlock
+
+  Created by Jeff Wang on 16/2/3.
+  Copyright © 2016年 Jeff Wang. All rights reserved.
+*/
+
+"MSA_btn_refresh_title" = "Refresh";
+"MSA_slide_auth_title" = "Verification";
+"MSA_slide_auth_tip_1" = "For security reason, this login requires verification.";
+"MSA_slide_auth_tip_2" = "Please drag the icon into the Target zone.";
+"MSA_slide_auth_tip_3" = "Please drag the logo into the Target zone.";
+"MSA_slide_auth_tip_4" = "Please shake your phone";
+
+"MSA_sms_auth_title_init" = "SMS";
+"MSA_sms_auth_title_sent" = "SMS";
+"MSA_sms_auth_title_sent_fail" = "Server failed to send code";
+"MSA_sms_auth_sub_title" = "Already protect your code from being hijacked";
+
+"MSA_call_auth_title" = "Voice verification";
+"MSA_call_auth_calling" = "Calling...Please pay attention to incoming calls";
+
+"MSA_mobile_no" = "Phone number";
+"MSA_veri_code" = "Verification code";
+
+"MSA_sms_auth_send_sms" = "Send";
+"MSA_sms_auth_count_down" = "Resend after %lu seconds";
+
+"MSA_submit_button" = "Submit";
+"MSA_submit_button_waiting" = "Alibaba JAQ Security is verifying";
+
+"MSA_switch_auth_from_slide_to_call" = "Can't pass? Click here to get voice code";
+
+"MSA_switch_auth_from_slide_to_call1" = "Can't pass?";
+"MSA_switch_auth_from_slide_to_call2" = "Phone number is changed";
+"MSA_switch_auth_from_slide_to_call3" = "or receive";
+"MSA_switch_auth_from_slide_to_call4" = "voice code";
+
+
+
+"MSA_switch_auth_from_sms_to_call" = "Can't receive code? Click here to answer the call again.";
+
+"MSA_alert_cancel" = "Cancel";
+"MSA_alert_ok" = "OK";
+"MSA_alert_answer" = "Answer";
+
+"MSA_veri_code_auth_failed" = "Wrong code. Please re-enter.";
+"MSA_veri_code_auth_call_failed" = "Wrong code. Please hang up and resend a code.";
+
+"MSA_slide_auth_ball_title" = "Login by captcha verification";
+
+"MSA_pay_attention_to_call" = "Answer the call of voice verification now?";
