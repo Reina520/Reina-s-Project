@@ -1,0 +1,53 @@
+/* 
+  Localizable.strings
+  MSSlideUnlock
+
+  Created by Jeff Wang on 16/2/3.
+  Copyright © 2016年 Jeff Wang. All rights reserved.
+*/
+
+"MSA_btn_refresh_title" = "更新";
+"MSA_slide_auth_title" = "認証";
+"MSA_slide_auth_tip_1" = "セキュリティ上の理由により、このログインには認証が必要です。";
+"MSA_slide_auth_tip_2" = "アイコンをターゲットゾーンにドラッグしてください。";
+"MSA_slide_auth_tip_3" = "ロゴをターゲットゾーンにドラッグしてください。";
+"MSA_slide_auth_tip_4" = "スマートフォンを振ってください。";
+
+"MSA_sms_auth_title_init" = "SMS";
+"MSA_sms_auth_title_sent" = "SMS";
+"MSA_sms_auth_title_sent_fail" = "サーバーがコードの送信に失敗しました。";
+"MSA_sms_auth_sub_title" = "すでにコードが乗っ取りから保護されています。";
+
+"MSA_call_auth_title" = "音声認証";
+"MSA_call_auth_calling" = "発信中...着信にご注意ください。";
+
+"MSA_mobile_no" = "電話番号";
+"MSA_veri_code" = "認証コード";
+
+"MSA_sms_auth_send_sms" = "送信";
+"MSA_sms_auth_count_down" = "%lu秒後に再送信";
+
+"MSA_submit_button" = "送信";
+"MSA_submit_button_waiting" = "Alibaba JAQ Securityが検証しています";
+
+"MSA_switch_auth_from_slide_to_call" = "パスできませんか？音声コードを取得するにはここをクリック";
+
+"MSA_switch_auth_from_slide_to_call1" = "パスできませんか？";
+"MSA_switch_auth_from_slide_to_call2" = "電話番号が変更されました";
+"MSA_switch_auth_from_slide_to_call3" = "または受信";
+"MSA_switch_auth_from_slide_to_call4" = "音声コード";
+
+
+
+"MSA_switch_auth_from_sms_to_call" = "コードを受信できませんか？もう一度電話に出るにはここをクリックしてください。";
+
+"MSA_alert_cancel" = "キャンセル";
+"MSA_alert_ok" = "OK";
+"MSA_alert_answer" = "応答";
+
+"MSA_veri_code_auth_failed" = "コードが間違っています。再入力してください。";
+"MSA_veri_code_auth_call_failed" = "コードが間違っています。電話を切ってコードを再送信してください。";
+
+"MSA_slide_auth_ball_title" = "キャプチャ認証でログイン";
+
+"MSA_pay_attention_to_call" = "今すぐ音声認証の電話に応答しますか？";
