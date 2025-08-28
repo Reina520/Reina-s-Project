@@ -1,0 +1,29 @@
+Präambel
+
+Die Lizenzen der meisten Software sind so gestaltet, dass sie Ihnen die
+Freiheit nehmen, diese zu teilen und zu ändern. Im Gegensatz dazu soll die GNU General Public
+License Ihre Freiheit garantieren, freie Software zu teilen und zu ändern –
+um sicherzustellen, dass die Software für alle ihre Benutzer frei ist. Diese
+General Public License gilt für die meisten Software der Free Software
+Foundation und für jedes andere Programm, dessen Autoren sich zu ihrer
+Verwendung verpflichten. (Einige andere Software der Free Software Foundation unterliegt stattdessen
+der GNU Lesser General Public License.) Sie können sie auch auf
+Ihre Programme anwenden.
+
+Wenn wir von freier Software sprechen, meinen wir Freiheit, nicht
+Preis. Unsere General Public Licenses sollen sicherstellen, dass Sie die
+Freiheit haben, Kopien freier Software zu verbreiten (und auf Wunsch für
+diesen Dienst Gebühren zu verlangen), dass Sie den Quellcode erhalten oder ihn
+erhalten können, wenn Sie ihn wünschen, dass Sie die Software ändern oder Teile davon
+in neuen freien Programmen verwenden können; und dass Sie wissen, dass Sie diese Dinge tun können.
+
+Um Ihre Rechte zu schützen, müssen wir Beschränkungen festlegen, die es
+jedem verbieten, Ihnen diese Rechte zu verweigern oder Sie aufzufordern, die Rechte aufzugeben.
+Diese Beschränkungen bedeuten bestimmte Verantwortlichkeiten für Sie, wenn Sie
+Kopien der Software verbreiten oder sie ändern.
+
+Wenn Sie beispielsweise Kopien eines solchen Programms verbreiten, ob
+kostenlos oder gegen Gebühr, müssen Sie den Empfängern alle Rechte einräumen,
+die Sie haben. Sie müssen sicherstellen, dass auch sie den Quellcode erhalten oder
+erhalten können. Und Sie müssen ihnen diese Bedingungen zeigen, damit sie ihre
+Rechte kennen.
