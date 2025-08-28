@@ -1,0 +1,53 @@
+/* 
+  Localizable.strings
+  MSSlideUnlock
+
+  Created by Jeff Wang on 16/2/3.
+  Copyright © 2016年 Jeff Wang. All rights reserved.
+*/
+
+"MSA_btn_refresh_title" = "Aktualisieren";
+"MSA_slide_auth_title" = "Verifizierung";
+"MSA_slide_auth_tip_1" = "Aus Sicherheitsgründen erfordert diese Anmeldung eine Verifizierung.";
+"MSA_slide_auth_tip_2" = "Bitte ziehen Sie das Symbol in den Zielbereich.";
+"MSA_slide_auth_tip_3" = "Bitte ziehen Sie das Logo in den Zielbereich.";
+"MSA_slide_auth_tip_4" = "Bitte schütteln Sie Ihr Telefon";
+
+"MSA_sms_auth_title_init" = "SMS";
+"MSA_sms_auth_title_sent" = "SMS";
+"MSA_sms_auth_title_sent_fail" = "Server konnte Code nicht senden";
+"MSA_sms_auth_sub_title" = "Code ist bereits vor Hijacking geschützt";
+
+"MSA_call_auth_title" = "Sprachverifizierung";
+"MSA_call_auth_calling" = "Anruf läuft... Bitte achten Sie auf eingehende Anrufe";
+
+"MSA_mobile_no" = "Telefonnummer";
+"MSA_veri_code" = "Verifizierungscode";
+
+"MSA_sms_auth_send_sms" = "Senden";
+"MSA_sms_auth_count_down" = "Erneut senden nach %lu Sekunden";
+
+"MSA_submit_button" = "Senden";
+"MSA_submit_button_waiting" = "Alibaba JAQ Security wird überprüft";
+
+"MSA_switch_auth_from_slide_to_call" = "Kann nicht passieren? Klicken Sie hier, um den Sprachcode zu erhalten";
+
+"MSA_switch_auth_from_slide_to_call1" = "Kann nicht passieren?";
+"MSA_switch_auth_from_slide_to_call2" = "Telefonnummer wurde geändert";
+"MSA_switch_auth_from_slide_to_call3" = "oder erhalten";
+"MSA_switch_auth_from_slide_to_call4" = "Sprachcode";
+
+
+
+"MSA_switch_auth_from_sms_to_call" = "Code nicht erhalten? Klicken Sie hier, um den Anruf erneut anzunehmen.";
+
+"MSA_alert_cancel" = "Abbrechen";
+"MSA_alert_ok" = "OK";
+"MSA_alert_answer" = "Antworten";
+
+"MSA_veri_code_auth_failed" = "Falscher Code. Bitte erneut eingeben.";
+"MSA_veri_code_auth_call_failed" = "Falscher Code. Bitte legen Sie auf und senden Sie einen Code erneut.";
+
+"MSA_slide_auth_ball_title" = "Anmeldung per Captcha-Verifizierung";
+
+"MSA_pay_attention_to_call" = "Den Anruf zur Sprachverifizierung jetzt beantworten?";
