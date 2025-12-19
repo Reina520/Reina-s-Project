@@ -1,0 +1,241 @@
+{
+  "meta": {
+    "apiVersion": "2.1.0",
+    "generatedAt": "2024-01-15T10:30:00Z",
+    "totalProducts": 8,
+    "page": 1,
+    "pageSize": 8,
+    "totalPages": 1,
+    "storeInfo": {
+      "storeId": "STORE-2024-001",
+      "storeName": "TechGadget Pro",
+      "contact": {
+        "email": "support@techgadgetpro.com",
+        "phone": "+1-800-TECH-PRO",
+        "website": "https://www.techgadgetpro.com",
+        "socialMedia": {
+          "twitter": "@TechGadgetPro",
+          "instagram": "techgadgetpro",
+          "facebook": "TechGadgetProOfficial"
+        }
+      },
+      "policies": {
+        "shipping": {
+          "freeThreshold": 50.00,
+          "standardDays": "3-5 business days",
+          "expressDays": "1-2 business days",
+          "international": true
+        },
+        "returns": "30-day money back guarantee",
+        "warranty": "1-year manufacturer warranty"
+      }
+    }
+  },
+  "categories": [
+    {
+      "id": "CAT-001",
+      "name": "Smartphones",
+      "slug": "smartphones",
+      "description": "Latest smartphones with cutting-edge technology",
+      "productCount": 3,
+      "icon": "📱"
+    },
+    {
+      "id": "CAT-002",
+      "name": "Laptops",
+      "slug": "laptops",
+      "description": "High-performance laptops for work and gaming",
+      "productCount": 2,
+      "icon": "💻"
+    },
+    {
+      "id": "CAT-003",
+      "name": "Wearables",
+      "slug": "wearables",
+      "description": "Smart watches and fitness trackers",
+      "productCount": 2,
+      "icon": "⌚"
+    },
+    {
+      "id": "CAT-004",
+      "name": "Accessories",
+      "slug": "accessories",
+      "description": "Essential tech accessories",
+      "productCount": 1,
+      "icon": "🎧"
+    }
+  ],
+  "products": [
+    {
+      "id": "PROD-2024-001",
+      "sku": "IPHONE15-PRO-256",
+      "name": "iPhone 15 Pro",
+      "brand": "Apple",
+      "category": "smartphones",
+      "categoryId": "CAT-001",
+      "shortDescription": "Titanium design, A17 Pro chip, 48MP camera",
+      "fullDescription": "The iPhone 15 Pro features a strong and light aerospace-grade titanium design, our most advanced Pro camera system, and A17 Pro — our fastest chip ever for next-level performance and mobile gaming.",
+      "price": {
+        "base": 999.00,
+        "currency": "USD",
+        "discount": {
+          "percentage": 5,
+          "originalPrice": 1049.00,
+          "validUntil": "2024-02-28T23:59:59Z",
+          "promoCode": "WINTER2024"
+        },
+        "formatted": "$999.00"
+      },
+      "inventory": {
+        "stock": 45,
+        "lowStockThreshold": 10,
+        "inStock": true,
+        "allowBackorders": false,
+        "sku": "IPHONE15-PRO-256-BLUE"
+      },
+      "specifications": {
+        "display": "6.1-inch Super Retina XDR display",
+        "processor": "A17 Pro chip",
+        "memory": "8GB RAM, 256GB storage",
+        "camera": "48MP Main | 12MP Ultra Wide | 12MP 3x Telephoto",
+        "battery": "Up to 23 hours video playback",
+        "connectivity": ["5G", "Wi-Fi 6E", "Bluetooth 5.3"],
+        "colors": ["Natural Titanium", "Blue Titanium", "White Titanium", "Black Titanium"]
+      },
+      "images": [
+        {
+          "id": "IMG-001",
+          "url": "https://cdn.techgadgetpro.com/products/iphone15-pro-front.jpg",
+          "alt": "iPhone 15 Pro front view",
+          "isPrimary": true,
+          "dimensions": {
+            "width": 1200,
+            "height": 800
+          }
+        },
+        {
+          "id": "IMG-002",
+          "url": "https://cdn.techgadgetpro.com/products/iphone15-pro-back.jpg",
+          "alt": "iPhone 15 Pro back view",
+          "isPrimary": false,
+          "dimensions": {
+            "width": 1200,
+            "height": 800
+          }
+        }
+      ],
+      "ratings": {
+        "average": 4.7,
+        "count": 1245,
+        "distribution": {
+          "5": 850,
+          "4": 300,
+          "3": 75,
+          "2": 15,
+          "1": 5
+        }
+      },
+      "tags": ["apple", "iphone", "pro", "5g", "titanium", "new"],
+      "features": [
+        "Dynamic Island",
+        "Emergency SOS via satellite",
+        "Crash Detection",
+        "Pro camera system",
+        "USB-C connectivity"
+      ],
+      "createdAt": "2023-09-22T00:00:00Z",
+      "updatedAt": "2024-01-14T15:30:00Z"
+    },
+    {
+      "id": "PROD-2024-002",
+      "sku": "S23-ULTRA-512",
+      "name": "Samsung Galaxy S23 Ultra",
+      "brand": "Samsung",
+      "category": "smartphones",
+      "categoryId": "CAT-001",
+      "shortDescription": "200MP camera, S Pen included, Snapdragon 8 Gen 2",
+      "fullDescription": "Unleash your creativity with the Galaxy S23 Ultra's 200MP camera. Write, draw, and navigate with the built-in S Pen. Powered by the fastest Snapdragon ever for Galaxy.",
+      "price": {
+        "base": 1199.99,
+        "currency": "USD",
+        "discount": null,
+        "formatted": "$1,199.99"
+      },
+      "inventory": {
+        "stock": 28,
+        "lowStockThreshold": 10,
+        "inStock": true,
+        "allowBackorders": true,
+        "sku": "S23-ULTRA-512-GREEN"
+      },
+      "specifications": {
+        "display": "6.8-inch Dynamic AMOLED 2X",
+        "processor": "Snapdragon 8 Gen 2 for Galaxy",
+        "memory": "12GB RAM, 512GB storage",
+        "camera": "200MP Wide | 12MP Ultra Wide | 10MP Telephoto (3x) | 10MP Telephoto (10x)",
+        "battery": "5000mAh, 45W fast charging",
+        "connectivity": ["5G", "Wi-Fi 6E", "Bluetooth 5.3"],
+        "colors": ["Phantom Black", "Green", "Cream", "Lavender"]
+      },
+      "images": [
+        {
+          "id": "IMG-003",
+          "url": "https://cdn.techgadgetpro.com/products/s23-ultra-front.jpg",
+          "alt": "Samsung Galaxy S23 Ultra",
+          "isPrimary": true,
+          "dimensions": {
+            "width": 1200,
+            "height": 800
+          }
+        }
+      ],
+      "ratings": {
+        "average": 4.5,
+        "count": 892,
+        "distribution": {
+          "5": 600,
+          "4": 220,
+          "3": 50,
+          "2": 15,
+          "1": 7
+        }
+      },
+      "tags": ["samsung", "android", "ultra", "spen", "200mp"],
+      "features": [
+        "Built-in S Pen",
+        "Nightography camera",
+        "Expert RAW",
+        "45W Super Fast Charging",
+        "Vision Booster"
+      ],
+      "createdAt": "2023-02-17T00:00:00Z",
+      "updatedAt": "2024-01-10T09:15:00Z"
+    }
+  ],
+  "promotions": [
+    {
+      "id": "PROMO-2024-001",
+      "title": "Winter Sale",
+      "description": "Up to 20% off on selected items",
+      "type": "percentage_discount",
+      "value": 20,
+      "minimumPurchase": 100.00,
+      "validFrom": "2024-01-01T00:00:00Z",
+      "validUntil": "2024-01-31T23:59:59Z",
+      "applicableCategories": ["smartphones", "laptops"],
+      "promoCode": "WINTER20"
+    },
+    {
+      "id": "PROMO-2024-002",
+      "title": "Free Shipping",
+      "description": "Free standard shipping on orders over $50",
+      "type": "free_shipping",
+      "value": 0,
+      "minimumPurchase": 50.00,
+      "validFrom": "2024-01-01T00:00:00Z",
+      "validUntil": "2024-12-31T23:59:59Z",
+      "applicableCategories": ["all"],
+      "promoCode": null
+    }
+  ]
+}
