@@ -1,0 +1,282 @@
+{
+  "api": {
+    "name": "WeatherPro API",
+    "version": "2.5.1",
+    "status": "运行正常",
+    "responseTime": "125ms",
+    "units": "公制",
+    "language": "en",
+    "license": "CC BY-SA 4.0",
+    "attribution": "数据由 WeatherPro 提供 © 2024",
+    "documentation": "https:\/\/api.weatherpro.com\/docs\/v2"
+  },
+  "location": {
+    "id": "5391959",
+    "name": "旧金山",
+    "region": "加利福尼亚州",
+    "country": "美国",
+    "countryCode": "US",
+    "type": "城市",
+    "coordinates": {
+      "latitude": 37.77493,
+      "longitude": -122.41942,
+      "elevation": 16
+    },
+    "timezone": {
+      "name": "America\/Los_Angeles",
+      "offset": -8,
+      "offsetSeconds": -28800,
+      "currentTime": "2024-01-15T14:30:00-08:00",
+      "isDst": false
+    },
+    "administrative": {
+      "level1": "加利福尼亚州",
+      "level2": "旧金山县",
+      "level3": "旧金山"
+    }
+  },
+  "current": {
+    "observationTime": "2024-01-15T14:30:00-08:00",
+    "temperature": {
+      "actual": 15.2,
+      "feelsLike": 14.8,
+      "min": 12.4,
+      "max": 16.8,
+      "unit": "摄氏度",
+      "formatted": "15°C"
+    },
+    "condition": {
+      "code": 1000,
+      "text": "晴",
+      "icon": "https:\/\/cdn.weatherpro.com\/icons\/day\/113.png",
+      "isDay": true,
+      "category": "晴朗"
+    },
+    "wind": {
+      "speed": 12.5,
+      "speedUnit": "公里\/小时",
+      "gust": 18.3,
+      "direction": 245,
+      "directionCardinal": "西西南",
+      "formatted": "12.5 公里\/小时 西西南"
+    },
+    "precipitation": {
+      "total": 0.0,
+      "type": "无",
+      "probability": 10,
+      "unit": "毫米",
+      "lastHour": 0.0,
+      "last3Hours": 0.0
+    },
+    "humidity": {
+      "relative": 65,
+      "dewPoint": 8.7,
+      "unit": "%"
+    },
+    "pressure": {
+      "seaLevel": 1013,
+      "groundLevel": 1015,
+      "trend": "稳定",
+      "unit": "百帕"
+    },
+    "visibility": {
+      "distance": 16.0,
+      "unit": "公里",
+      "condition": "良好"
+    },
+    "uvIndex": {
+      "value": 4,
+      "category": "中等",
+      "protectionRequired": true,
+      "maxUvToday": 5
+    },
+    "airQuality": {
+      "index": 42,
+      "category": "良好",
+      "pollutants": {
+        "co": 250.1,
+        "no2": 12.3,
+        "o3": 45.2,
+        "so2": 1.2,
+        "pm2_5": 8.5,
+        "pm10": 15.2
+      },
+      "dominantPollutant": "pm2_5",
+      "healthRecommendations": {
+        "general": "空气质量良好。",
+        "sensitive": "异常敏感人群应考虑减少长时间户外活动。"
+      }
+    },
+    "astronomy": {
+      "sun": {
+        "rise": "2024-01-15T07:22:00-08:00",
+        "set": "2024-01-15T17:18:00-08:00",
+        "duration": "9小时56分"
+      },
+      "moon": {
+        "phase": "盈眉月",
+        "illumination": 28,
+        "age": 4,
+        "rise": "2024-01-15T10:15:00-08:00",
+        "set": "2024-01-15T22:45:00-08:00"
+      }
+    }
+  },
+  "forecast": {
+    "daily": [
+      {
+        "date": "2024-01-15",
+        "dayOfWeek": "星期一",
+        "summary": "晴，下午有云。宜人。",
+        "temperature": {
+          "min": 12.4,
+          "max": 16.8,
+          "morning": 13.2,
+          "afternoon": 16.5,
+          "evening": 14.8,
+          "night": 12.8,
+          "unit": "摄氏度"
+        },
+        "condition": {
+          "day": {
+            "code": 1000,
+            "text": "晴",
+            "icon": "https:\/\/cdn.weatherpro.com\/icons\/day\/113.png"
+          },
+          "night": {
+            "code": 1003,
+            "text": "部分多云",
+            "icon": "https:\/\/cdn.weatherpro.com\/icons\/night\/116.png"
+          }
+        },
+        "precipitation": {
+          "total": 0.0,
+          "probability": 10,
+          "type": "无",
+          "unit": "毫米"
+        },
+        "wind": {
+          "maxSpeed": 18.3,
+          "avgSpeed": 12.5,
+          "direction": "西西南",
+          "gust": 25.0
+        },
+        "humidity": {
+          "min": 60,
+          "max": 85,
+          "avg": 72
+        },
+        "uvIndex": {
+          "max": 5,
+          "category": "中等"
+        },
+        "sun": {
+          "rise": "07:22",
+          "set": "17:18",
+          "duration": "9小时56分"
+        }
+      }
+    ],
+    "hourly": [
+      {
+        "time": "2024-01-15T14:00:00-08:00",
+        "temperature": 15.2,
+        "feelsLike": 14.8,
+        "condition": {
+          "code": 1000,
+          "text": "晴",
+          "icon": "https:\/\/cdn.weatherpro.com\/icons\/day\/113.png",
+          "isDay": true
+        },
+        "precipitation": {
+          "probability": 10,
+          "amount": 0.0,
+          "type": "无"
+        },
+        "wind": {
+          "speed": 12.5,
+          "direction": 245,
+          "gust": 18.3
+        },
+        "humidity": 65,
+        "visibility": 16.0,
+        "uvIndex": 4
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "id": "CAL-2024-001",
+      "type": "风",
+      "severity": "中等",
+      "certainty": "可能",
+      "urgency": "预计",
+      "headline": "大风预警",
+      "description": "今晚预计持续风速30-40公里\/小时，阵风最高可达60公里\/小时。",
+      "instruction": "固定室外物品。驾车请谨慎。",
+      "effective": "2024-01-15T18:00:00-08:00",
+      "expires": "2024-01-16T06:00:00-08:00",
+      "areas": ["San Francisco", "Bay Area"],
+      "source": "国家气象局"
+    }
+  ],
+  "historical": {
+    "yesterday": {
+      "date": "2024-01-14",
+      "temperature": {
+        "avg": 14.2,
+        "min": 11.8,
+        "max": 16.5
+      },
+      "precipitation": {
+        "total": 2.5,
+        "unit": "毫米"
+      },
+      "condition": "多云有小雨"
+    },
+    "averages": {
+      "month": "一月",
+      "temperature": {
+        "avg": 13.5,
+        "avgMin": 10.2,
+        "avgMax": 16.8,
+        "recordHigh": 22.8,
+        "recordLow": 3.9
+      },
+      "precipitation": {
+        "avgTotal": 114.3,
+        "avgRainyDays": 7,
+        "unit": "毫米"
+      }
+    }
+  },
+  "metadata": {
+    "request": {
+      "query": "旧金山",
+      "type": "城市",
+      "language": "en",
+      "units": "公制",
+      "timestamp": "2024-01-15T22:30:00Z"
+    },
+    "cache": {
+      "isCached": false,
+      "cacheAge": null,
+      "cacheKey": "weather:san-francisco:202401151430"
+    },
+    "dataSources": [
+      {
+        "name": "国家气象局",
+        "confidence": 0.95
+      },
+      {
+        "name": "WeatherPro 测站",
+        "confidence": 0.98
+      }
+    ],
+    "dataFreshness": {
+      "current": "5 分钟前",
+      "forecast": "每小时更新",
+      "lastUpdated": "2024-01-15T14:25:00-08:00"
+    }
+  }
+}
