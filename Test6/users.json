@@ -1,0 +1,206 @@
+{
+  "api": {
+    "version": "1.3.0",
+    "endpoint": "/api/v1/users",
+    "rateLimit": {
+      "requestsPerMinute": 60,
+      "requestsPerHour": 1000
+    },
+    "authentication": {
+      "required": true,
+      "methods": ["Bearer Token", "API Key"],
+      "scopes": ["users:read", "users:write", "users:delete"]
+    }
+  },
+  "pagination": {
+    "currentPage": 1,
+    "totalPages": 3,
+    "totalItems": 25,
+    "itemsPerPage": 10,
+    "hasNextPage": true,
+    "hasPreviousPage": false,
+    "nextPageUrl": "/api/v1/users?page=2&limit=10",
+    "previousPageUrl": null
+  },
+  "filters": {
+    "applied": {
+      "role": "user",
+      "isActive": true
+    },
+    "available": {
+      "role": ["admin", "user", "moderator", "guest"],
+      "status": ["active", "inactive", "suspended", "pending"],
+      "sortBy": ["name", "email", "createdAt", "lastLogin"],
+      "sortOrder": ["asc", "desc"]
+    }
+  },
+  "users": [
+    {
+      "id": "USR-2024-001",
+      "username": "john_doe",
+      "email": "john.doe@example.com",
+      "emailVerified": true,
+      "personalInfo": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "fullName": "John Doe",
+        "dateOfBirth": "1990-05-15",
+        "gender": "male",
+        "avatar": "https://api.example.com/avatars/john_doe.jpg",
+        "bio": "Software engineer passionate about open source projects and machine learning.",
+        "location": {
+          "city": "San Francisco",
+          "state": "CA",
+          "country": "United States",
+          "countryCode": "US",
+          "timezone": "America/Los_Angeles",
+          "coordinates": {
+            "latitude": 37.7749,
+            "longitude": -122.4194
+          }
+        }
+      },
+      "authentication": {
+        "passwordHash": "$2b$12$EixZaYVK1fsbw1ZfbX3OXePaWxn96p36WQoeG6Lruj3vjPGga31lW",
+        "twoFactorEnabled": true,
+        "twoFactorMethod": "authenticator_app",
+        "lastPasswordChange": "2024-01-10T14:30:00Z",
+        "failedLoginAttempts": 0,
+        "accountLocked": false
+      },
+      "role": "user",
+      "permissions": [
+        "read:profile",
+        "write:profile",
+        "read:posts",
+        "write:posts",
+        "read:comments"
+      ],
+      "preferences": {
+        "language": "en-US",
+        "theme": "dark",
+        "notifications": {
+          "email": true,
+          "push": true,
+          "sms": false,
+          "marketingEmails": false
+        },
+        "privacy": {
+          "profileVisibility": "public",
+          "emailVisibility": "private",
+          "activityStatus": "friends_only",
+          "searchIndexing": true
+        }
+      },
+      "accountStatus": {
+        "isActive": true,
+        "isSuspended": false,
+        "isVerified": true,
+        "verificationLevel": 2,
+        "suspensionReason": null,
+        "suspensionEnd": null
+      },
+      "statistics": {
+        "postsCount": 42,
+        "commentsCount": 156,
+        "likesCount": 324,
+        "followersCount": 128,
+        "followingCount": 87,
+        "totalLoginCount": 312,
+        "accountAgeDays": 245
+      },
+      "activity": {
+        "lastLogin": "2024-01-14T21:15:30Z",
+        "lastLoginIp": "192.168.1.100",
+        "lastActivity": "2024-01-14T21:45:00Z",
+        "loginHistory": [
+          {
+            "timestamp": "2024-01-14T21:15:30Z",
+            "ipAddress": "192.168.1.100",
+            "device": {
+              "type": "desktop",
+              "browser": "Chrome 120.0.0.0",
+              "os": "Windows 11",
+              "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+            },
+            "location": {
+              "city": "San Francisco",
+              "country": "US"
+            }
+          }
+        ]
+      },
+      "socialConnections": {
+        "connectedAccounts": [
+          {
+            "provider": "google",
+            "providerId": "google-oauth2|1234567890",
+            "connectedAt": "2023-05-10T10:30:00Z"
+          },
+          {
+            "provider": "github",
+            "providerId": "github|987654321",
+            "connectedAt": "2023-06-15T14:20:00Z"
+          }
+        ],
+        "following": ["USR-2023-045", "USR-2023-112", "USR-2024-003"],
+        "followers": ["USR-2023-078", "USR-2023-095"]
+      },
+      "metadata": {
+        "createdAt": "2023-05-10T10:30:00Z",
+        "createdBy": "system",
+        "updatedAt": "2024-01-14T21:45:00Z",
+        "updatedBy": "john_doe",
+        "registrationSource": "web",
+        "referralCode": "JOHNDOE2024",
+        "referrer": null,
+        "tags": ["early_adopter", "premium_user", "beta_tester"]
+      },
+      "subscription": {
+        "plan": "premium",
+        "tier": "pro",
+        "status": "active",
+        "startDate": "2023-07-01T00:00:00Z",
+        "endDate": "2024-07-01T00:00:00Z",
+        "autoRenew": true,
+        "paymentMethod": "credit_card",
+        "billingCycle": "monthly",
+        "price": {
+          "amount": 19.99,
+          "currency": "USD"
+        }
+      }
+    }
+  ],
+  "aggregatedStats": {
+    "totalUsers": 15247,
+    "activeUsers": 12489,
+    "newUsersToday": 42,
+    "newUsersThisWeek": 315,
+    "newUsersThisMonth": 1289,
+    "usersByRole": {
+      "admin": 15,
+      "moderator": 87,
+      "user": 12345,
+      "guest": 2800
+    },
+    "usersByCountry": {
+      "US": 4521,
+      "UK": 1876,
+      "Germany": 1245,
+      "Canada": 987,
+      "Australia": 856,
+      "other": 5762
+    },
+    "verificationRate": 89.3,
+    "avgSessionsPerUser": 3.2,
+    "avgSessionDuration": "12m 45s"
+  },
+  "links": {
+    "self": "/api/v1/users?page=1&limit=10&role=user&active=true",
+    "first": "/api/v1/users?page=1&limit=10",
+    "last": "/api/v1/users?page=3&limit=10",
+    "next": "/api/v1/users?page=2&limit=10",
+    "prev": null
+  }
+}
