@@ -1,0 +1,241 @@
+{
+  "meta": {
+    "apiVersion": "2.1.0",
+    "generatedAt": "2024-01-15T10:30:00Z",
+    "totalProducts": 8,
+    "page": 1,
+    "pageSize": 8,
+    "totalPages": 1,
+    "storeInfo": {
+      "storeId": "STORE-2024-001",
+      "storeName": "TechGadget Pro",
+      "contact": {
+        "email": "support@techgadgetpro.com",
+        "phone": "+1-800-TECH-PRO",
+        "website": "https:\/\/www.techgadgetpro.com",
+        "socialMedia": {
+          "twitter": "@TechGadgetPro",
+          "instagram": "techgadgetpro",
+          "facebook": "TechGadgetProOfficial"
+        }
+      },
+      "policies": {
+        "shipping": {
+          "freeThreshold": 50.00,
+          "standardDays": "3-5 个工作日",
+          "expressDays": "1-2 个工作日",
+          "international": true
+        },
+        "returns": "30 天退款保证",
+        "warranty": "1 年制造商保修"
+      }
+    }
+  },
+  "categories": [
+    {
+      "id": "CAT-001",
+      "name": "智能手机",
+      "slug": "智能手机",
+      "description": "搭载尖端科技的最新智能手机",
+      "productCount": 3,
+      "icon": "📱"
+    },
+    {
+      "id": "CAT-002",
+      "name": "笔记本电脑",
+      "slug": "笔记本电脑",
+      "description": "适用于工作和游戏的高性能笔记本电脑",
+      "productCount": 2,
+      "icon": "💻"
+    },
+    {
+      "id": "CAT-003",
+      "name": "可穿戴设备",
+      "slug": "可穿戴设备",
+      "description": "智能手表和健身追踪器",
+      "productCount": 2,
+      "icon": "⌚"
+    },
+    {
+      "id": "CAT-004",
+      "name": "配件",
+      "slug": "配件",
+      "description": "必备科技配件",
+      "productCount": 1,
+      "icon": "🎧"
+    }
+  ],
+  "products": [
+    {
+      "id": "PROD-2024-001",
+      "sku": "IPHONE15-PRO-256",
+      "name": "iPhone 15 Pro",
+      "brand": "苹果",
+      "category": "智能手机",
+      "categoryId": "CAT-001",
+      "shortDescription": "钛金属设计，A17 Pro芯片，4800万像素摄像头",
+      "fullDescription": "iPhone 15 Pro 采用坚固轻巧的航空级钛金属设计，配备我们迄今最先进的 Pro 级摄像头系统，以及我们有史以来最快的芯片 A17 Pro，带来更高水平的性能和移动游戏体验。",
+      "price": {
+        "base": 999.00,
+        "currency": "美元",
+        "discount": {
+          "percentage": 5,
+          "originalPrice": 1049.00,
+          "validUntil": "2024-02-28T23:59:59Z",
+          "promoCode": "冬季2024"
+        },
+        "formatted": "999.00美元"
+      },
+      "inventory": {
+        "stock": 45,
+        "lowStockThreshold": 10,
+        "inStock": true,
+        "allowBackorders": false,
+        "sku": "IPHONE15-PRO-256-BLUE"
+      },
+      "specifications": {
+        "display": "6.1英寸超视网膜XDR显示屏",
+        "processor": "A17 Pro芯片",
+        "memory": "8GB 运行内存，256GB 存储空间",
+        "camera": "48MP 主摄 | 12MP 超广角 | 12MP 3倍长焦",
+        "battery": "最长达 23 小时视频播放",
+        "connectivity": ["5G", "Wi-Fi 6E", "Bluetooth 5.3"],
+        "colors": ["Natural Titanium", "Blue Titanium", "White Titanium", "Black Titanium"]
+      },
+      "images": [
+        {
+          "id": "IMG-001",
+          "url": "https:\/\/cdn.techgadgetpro.com\/products\/iphone15-pro-front.jpg",
+          "alt": "iPhone 15 Pro 正面视图",
+          "isPrimary": true,
+          "dimensions": {
+            "width": 1200,
+            "height": 800
+          }
+        },
+        {
+          "id": "IMG-002",
+          "url": "https:\/\/cdn.techgadgetpro.com\/products\/iphone15-pro-back.jpg",
+          "alt": "iPhone 15 Pro 背面视图",
+          "isPrimary": false,
+          "dimensions": {
+            "width": 1200,
+            "height": 800
+          }
+        }
+      ],
+      "ratings": {
+        "average": 4.7,
+        "count": 1245,
+        "distribution": {
+          "5": 850,
+          "4": 300,
+          "3": 75,
+          "2": 15,
+          "1": 5
+        }
+      },
+      "tags": ["apple", "iphone", "pro", "5g", "titanium", "new"],
+      "features": [
+        "Dynamic Island",
+        "Emergency SOS via satellite",
+        "Crash Detection",
+        "Pro camera system",
+        "USB-C connectivity"
+      ],
+      "createdAt": "2023-09-22T00:00:00Z",
+      "updatedAt": "2024-01-14T15:30:00Z"
+    },
+    {
+      "id": "PROD-2024-002",
+      "sku": "S23-ULTRA-512",
+      "name": "三星 Galaxy S23 Ultra",
+      "brand": "三星",
+      "category": "智能手机",
+      "categoryId": "CAT-001",
+      "shortDescription": "2亿像素摄像头，内置S Pen，骁龙8 Gen 2",
+      "fullDescription": "通过Galaxy S23 Ultra的2亿像素摄像头释放您的创造力。使用内置S Pen书写、绘画和导航。搭载Galaxy史上最快的骁龙处理器。",
+      "price": {
+        "base": 1199.99,
+        "currency": "美元",
+        "discount": null,
+        "formatted": "$1,199.99"
+      },
+      "inventory": {
+        "stock": 28,
+        "lowStockThreshold": 10,
+        "inStock": true,
+        "allowBackorders": true,
+        "sku": "S23-ULTRA-512-GREEN"
+      },
+      "specifications": {
+        "display": "6.8英寸 Dynamic AMOLED 2X",
+        "processor": "专为Galaxy定制的骁龙8 Gen 2",
+        "memory": "12GB RAM，512GB 存储",
+        "camera": "2亿像素广角 | 1200万像素超广角 | 1000万像素长焦 (3倍) | 1000万像素长焦 (10倍)",
+        "battery": "5000毫安时，45瓦快充",
+        "connectivity": ["5G", "Wi-Fi 6E", "Bluetooth 5.3"],
+        "colors": ["Phantom Black", "Green", "Cream", "Lavender"]
+      },
+      "images": [
+        {
+          "id": "IMG-003",
+          "url": "https:\/\/cdn.techgadgetpro.com\/products\/s23-ultra-front.jpg",
+          "alt": "三星 Galaxy S23 Ultra",
+          "isPrimary": true,
+          "dimensions": {
+            "width": 1200,
+            "height": 800
+          }
+        }
+      ],
+      "ratings": {
+        "average": 4.5,
+        "count": 892,
+        "distribution": {
+          "5": 600,
+          "4": 220,
+          "3": 50,
+          "2": 15,
+          "1": 7
+        }
+      },
+      "tags": ["samsung", "android", "ultra", "spen", "200mp"],
+      "features": [
+        "Built-in S Pen",
+        "Nightography camera",
+        "Expert RAW",
+        "45W Super Fast Charging",
+        "Vision Booster"
+      ],
+      "createdAt": "2023-02-17T00:00:00Z",
+      "updatedAt": "2024-01-10T09:15:00Z"
+    }
+  ],
+  "promotions": [
+    {
+      "id": "PROMO-2024-001",
+      "title": "冬季促销",
+      "description": "部分商品低至8折",
+      "type": "百分比折扣",
+      "value": 20,
+      "minimumPurchase": 100.00,
+      "validFrom": "2024-01-01T00:00:00Z",
+      "validUntil": "2024-01-31T23:59:59Z",
+      "applicableCategories": ["smartphones", "laptops"],
+      "promoCode": "WINTER20"
+    },
+    {
+      "id": "PROMO-2024-002",
+      "title": "免运费",
+      "description": "订单满50美元享免费标准运费",
+      "type": "免运费",
+      "value": 0,
+      "minimumPurchase": 50.00,
+      "validFrom": "2024-01-01T00:00:00Z",
+      "validUntil": "2024-12-31T23:59:59Z",
+      "applicableCategories": ["all"],
+      "promoCode": null
+    }
+  ]
+}
