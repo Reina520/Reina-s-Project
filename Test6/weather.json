@@ -1,0 +1,282 @@
+{
+  "api": {
+    "name": "WeatherPro API",
+    "version": "2.5.1",
+    "status": "operational",
+    "responseTime": "125ms",
+    "units": "metric",
+    "language": "en",
+    "license": "CC BY-SA 4.0",
+    "attribution": "Data provided by WeatherPro © 2024",
+    "documentation": "https://api.weatherpro.com/docs/v2"
+  },
+  "location": {
+    "id": "5391959",
+    "name": "San Francisco",
+    "region": "California",
+    "country": "United States",
+    "countryCode": "US",
+    "type": "City",
+    "coordinates": {
+      "latitude": 37.77493,
+      "longitude": -122.41942,
+      "elevation": 16
+    },
+    "timezone": {
+      "name": "America/Los_Angeles",
+      "offset": -8,
+      "offsetSeconds": -28800,
+      "currentTime": "2024-01-15T14:30:00-08:00",
+      "isDst": false
+    },
+    "administrative": {
+      "level1": "California",
+      "level2": "San Francisco County",
+      "level3": "San Francisco"
+    }
+  },
+  "current": {
+    "observationTime": "2024-01-15T14:30:00-08:00",
+    "temperature": {
+      "actual": 15.2,
+      "feelsLike": 14.8,
+      "min": 12.4,
+      "max": 16.8,
+      "unit": "celsius",
+      "formatted": "15°C"
+    },
+    "condition": {
+      "code": 1000,
+      "text": "Sunny",
+      "icon": "https://cdn.weatherpro.com/icons/day/113.png",
+      "isDay": true,
+      "category": "clear"
+    },
+    "wind": {
+      "speed": 12.5,
+      "speedUnit": "km/h",
+      "gust": 18.3,
+      "direction": 245,
+      "directionCardinal": "WSW",
+      "formatted": "12.5 km/h WSW"
+    },
+    "precipitation": {
+      "total": 0.0,
+      "type": "none",
+      "probability": 10,
+      "unit": "mm",
+      "lastHour": 0.0,
+      "last3Hours": 0.0
+    },
+    "humidity": {
+      "relative": 65,
+      "dewPoint": 8.7,
+      "unit": "%"
+    },
+    "pressure": {
+      "seaLevel": 1013,
+      "groundLevel": 1015,
+      "trend": "steady",
+      "unit": "hPa"
+    },
+    "visibility": {
+      "distance": 16.0,
+      "unit": "km",
+      "condition": "good"
+    },
+    "uvIndex": {
+      "value": 4,
+      "category": "moderate",
+      "protectionRequired": true,
+      "maxUvToday": 5
+    },
+    "airQuality": {
+      "index": 42,
+      "category": "good",
+      "pollutants": {
+        "co": 250.1,
+        "no2": 12.3,
+        "o3": 45.2,
+        "so2": 1.2,
+        "pm2_5": 8.5,
+        "pm10": 15.2
+      },
+      "dominantPollutant": "pm2_5",
+      "healthRecommendations": {
+        "general": "Air quality is satisfactory.",
+        "sensitive": "Unusually sensitive people should consider reducing prolonged outdoor exertion."
+      }
+    },
+    "astronomy": {
+      "sun": {
+        "rise": "2024-01-15T07:22:00-08:00",
+        "set": "2024-01-15T17:18:00-08:00",
+        "duration": "9h 56m"
+      },
+      "moon": {
+        "phase": "waxing crescent",
+        "illumination": 28,
+        "age": 4,
+        "rise": "2024-01-15T10:15:00-08:00",
+        "set": "2024-01-15T22:45:00-08:00"
+      }
+    }
+  },
+  "forecast": {
+    "daily": [
+      {
+        "date": "2024-01-15",
+        "dayOfWeek": "Monday",
+        "summary": "Sunny with some afternoon clouds. Pleasant.",
+        "temperature": {
+          "min": 12.4,
+          "max": 16.8,
+          "morning": 13.2,
+          "afternoon": 16.5,
+          "evening": 14.8,
+          "night": 12.8,
+          "unit": "celsius"
+        },
+        "condition": {
+          "day": {
+            "code": 1000,
+            "text": "Sunny",
+            "icon": "https://cdn.weatherpro.com/icons/day/113.png"
+          },
+          "night": {
+            "code": 1003,
+            "text": "Partly cloudy",
+            "icon": "https://cdn.weatherpro.com/icons/night/116.png"
+          }
+        },
+        "precipitation": {
+          "total": 0.0,
+          "probability": 10,
+          "type": "none",
+          "unit": "mm"
+        },
+        "wind": {
+          "maxSpeed": 18.3,
+          "avgSpeed": 12.5,
+          "direction": "WSW",
+          "gust": 25.0
+        },
+        "humidity": {
+          "min": 60,
+          "max": 85,
+          "avg": 72
+        },
+        "uvIndex": {
+          "max": 5,
+          "category": "moderate"
+        },
+        "sun": {
+          "rise": "07:22",
+          "set": "17:18",
+          "duration": "9h 56m"
+        }
+      }
+    ],
+    "hourly": [
+      {
+        "time": "2024-01-15T14:00:00-08:00",
+        "temperature": 15.2,
+        "feelsLike": 14.8,
+        "condition": {
+          "code": 1000,
+          "text": "Sunny",
+          "icon": "https://cdn.weatherpro.com/icons/day/113.png",
+          "isDay": true
+        },
+        "precipitation": {
+          "probability": 10,
+          "amount": 0.0,
+          "type": "none"
+        },
+        "wind": {
+          "speed": 12.5,
+          "direction": 245,
+          "gust": 18.3
+        },
+        "humidity": 65,
+        "visibility": 16.0,
+        "uvIndex": 4
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "id": "CAL-2024-001",
+      "type": "wind",
+      "severity": "moderate",
+      "certainty": "likely",
+      "urgency": "expected",
+      "headline": "Wind Advisory",
+      "description": "Sustained winds of 30-40 km/h with gusts up to 60 km/h expected this evening.",
+      "instruction": "Secure outdoor objects. Use caution when driving.",
+      "effective": "2024-01-15T18:00:00-08:00",
+      "expires": "2024-01-16T06:00:00-08:00",
+      "areas": ["San Francisco", "Bay Area"],
+      "source": "National Weather Service"
+    }
+  ],
+  "historical": {
+    "yesterday": {
+      "date": "2024-01-14",
+      "temperature": {
+        "avg": 14.2,
+        "min": 11.8,
+        "max": 16.5
+      },
+      "precipitation": {
+        "total": 2.5,
+        "unit": "mm"
+      },
+      "condition": "Partly cloudy with light rain"
+    },
+    "averages": {
+      "month": "January",
+      "temperature": {
+        "avg": 13.5,
+        "avgMin": 10.2,
+        "avgMax": 16.8,
+        "recordHigh": 22.8,
+        "recordLow": 3.9
+      },
+      "precipitation": {
+        "avgTotal": 114.3,
+        "avgRainyDays": 7,
+        "unit": "mm"
+      }
+    }
+  },
+  "metadata": {
+    "request": {
+      "query": "San Francisco",
+      "type": "city",
+      "language": "en",
+      "units": "metric",
+      "timestamp": "2024-01-15T22:30:00Z"
+    },
+    "cache": {
+      "isCached": false,
+      "cacheAge": null,
+      "cacheKey": "weather:san-francisco:202401151430"
+    },
+    "dataSources": [
+      {
+        "name": "National Weather Service",
+        "confidence": 0.95
+      },
+      {
+        "name": "WeatherPro Stations",
+        "confidence": 0.98
+      }
+    ],
+    "dataFreshness": {
+      "current": "5 minutes old",
+      "forecast": "updated hourly",
+      "lastUpdated": "2024-01-15T14:25:00-08:00"
+    }
+  }
+}
