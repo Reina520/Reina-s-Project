@@ -1,0 +1,53 @@
+/* 
+  Localizable.strings
+  MSSlideUnlock
+
+  Created by Jeff Wang on 16/2/3.
+  Copyright © 2016年 Jeff Wang. All rights reserved.
+*/
+
+"MSA_btn_refresh_title" = "Aktualisieren";
+"MSA_slide_auth_title" = "Überprüfung";
+"MSA_slide_auth_tip_1" = "Aus Sicherheitsgründen erfordert diese Anmeldung eine Überprüfung.";
+"MSA_slide_auth_tip_2" = "Bitte ziehen Sie das Symbol in den Zielbereich.";
+"MSA_slide_auth_tip_3" = "Bitte ziehen Sie das Logo in den Zielbereich.";
+"MSA_slide_auth_tip_4" = "Bitte schütteln Sie Ihr Telefon";
+
+"MSA_sms_auth_title_init" = "SMS";
+"MSA_sms_auth_title_sent" = "SMS";
+"MSA_sms_auth_title_sent_fail" = "Server konnte Code nicht senden";
+"MSA_sms_auth_sub_title" = "Schützen Sie Ihren Code bereits jetzt vor Missbrauch.";
+
+"MSA_call_auth_title" = "Stimmüberprüfung";
+"MSA_call_auth_calling" = "Anruf... Bitte achten Sie auf eingehende Anrufe.";
+
+"MSA_mobile_no" = "Telefonnummer";
+"MSA_veri_code" = "Verifizierungscode";
+
+"MSA_sms_auth_send_sms" = "Senden";
+"MSA_sms_auth_count_down" = "Nach %lu Sekunden erneut senden";
+
+"MSA_submit_button" = "Einreichen";
+"MSA_submit_button_waiting" = "Alibaba JAQ Security überprüft";
+
+"MSA_switch_auth_from_slide_to_call" = "Kannst du nicht weiter?Klicken Sie hier, um den Sprachcode zu erhalten";
+
+"MSA_switch_auth_from_slide_to_call1" = "Kannst du nicht weiter?";
+"MSA_switch_auth_from_slide_to_call2" = "Telefonnummer geändert";
+"MSA_switch_auth_from_slide_to_call3" = "oder erhalten";
+"MSA_switch_auth_from_slide_to_call4" = "Sprachcode";
+
+
+
+"MSA_switch_auth_from_sms_to_call" = "Code nicht erhalten?Klicken Sie hier, um den Anruf erneut anzunehmen.";
+
+"MSA_alert_cancel" = "Abbrechen";
+"MSA_alert_ok" = "OK";
+"MSA_alert_answer" = "Antwort";
+
+"MSA_veri_code_auth_failed" = "Falscher Code.Bitte erneut eingeben.";
+"MSA_veri_code_auth_call_failed" = "Falscher Code.Bitte legen Sie auf und senden Sie einen neuen Code.";
+
+"MSA_slide_auth_ball_title" = "Anmeldung per Captcha-Verifizierung";
+
+"MSA_pay_attention_to_call" = "Jetzt den Anruf zur Sprachüberprüfung annehmen?";
