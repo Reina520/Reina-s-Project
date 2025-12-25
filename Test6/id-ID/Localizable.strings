@@ -1,0 +1,53 @@
+/* 
+  Localizable.strings
+  MSSlideUnlock
+
+  Created by Jeff Wang on 16/2/3.
+  Copyright © 2016年 Jeff Wang. All rights reserved.
+*/
+
+"MSA_btn_refresh_title" = "Segarkan";
+"MSA_slide_auth_title" = "Verifikasi";
+"MSA_slide_auth_tip_1" = "Untuk alasan keamanan, login ini memerlukan verifikasi.";
+"MSA_slide_auth_tip_2" = "Silakan seret ikon ke zona Target.";
+"MSA_slide_auth_tip_3" = "Silakan seret logo ke zona Target.";
+"MSA_slide_auth_tip_4" = "Silakan goyangkan ponsel Anda";
+
+"MSA_sms_auth_title_init" = "SMS";
+"MSA_sms_auth_title_sent" = "SMS";
+"MSA_sms_auth_title_sent_fail" = "Server gagal mengirim kode";
+"MSA_sms_auth_sub_title" = "Lindungi kode Anda dari penyalahgunaan";
+
+"MSA_call_auth_title" = "Verifikasi suara";
+"MSA_call_auth_calling" = "Panggilan masuk... Mohon perhatikan panggilan yang masuk";
+
+"MSA_mobile_no" = "Nomor telepon";
+"MSA_veri_code" = "Kode verifikasi";
+
+"MSA_sms_auth_send_sms" = "Kirim";
+"MSA_sms_auth_count_down" = "Kirim ulang setelah %lu detik";
+
+"MSA_submit_button" = "Kirim";
+"MSA_submit_button_waiting" = "Alibaba JAQ Security sedang memverifikasi";
+
+"MSA_switch_auth_from_slide_to_call" = "Tidak bisa lewat?Klik di sini untuk mendapatkan kode suara";
+
+"MSA_switch_auth_from_slide_to_call1" = "Tidak bisa lewat?";
+"MSA_switch_auth_from_slide_to_call2" = "Nomor telepon telah diubah";
+"MSA_switch_auth_from_slide_to_call3" = "atau menerima";
+"MSA_switch_auth_from_slide_to_call4" = "kode suara";
+
+
+
+"MSA_switch_auth_from_sms_to_call" = "Tidak bisa menerima kode?Klik di sini untuk menjawab panggilan lagi.";
+
+"MSA_alert_cancel" = "Batalkan";
+"MSA_alert_ok" = "OK";
+"MSA_alert_answer" = "Jawaban";
+
+"MSA_veri_code_auth_failed" = "Kode salah.Silakan masuk kembali.";
+"MSA_veri_code_auth_call_failed" = "Kode salah.Bitte legen Sie auf und senden Sie einen neuen Code.";
+
+"MSA_slide_auth_ball_title" = "Anmeldung per Captcha-Verifizierung";
+
+"MSA_pay_attention_to_call" = "Jetzt den Anruf zur Sprachüberprüfung annehmen?";
