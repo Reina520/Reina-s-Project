@@ -1,0 +1,53 @@
+/* 
+  Localizable.strings
+  MSSlideUnlock
+
+  Created by Jeff Wang on 16/2/3.
+  Copyright © 2016年 Jeff Wang. All rights reserved.
+*/
+
+"MSA_btn_refresh_title" = "تحديث";
+"MSA_slide_auth_title" = "التحقق";
+"MSA_slide_auth_tip_1" = "لأسباب أمنية، يتطلب تسجيل الدخول هذا التحقق.";
+"MSA_slide_auth_tip_2" = "يرجى سحب الأيقونة إلى المنطقة المستهدفة.";
+"MSA_slide_auth_tip_3" = "يرجى سحب الشعار إلى المنطقة المستهدفة.";
+"MSA_slide_auth_tip_4" = "يرجى هز هاتفك";
+
+"MSA_sms_auth_title_init" = "رسالة نصية";
+"MSA_sms_auth_title_sent" = "رسالة نصية";
+"MSA_sms_auth_title_sent_fail" = "فشل الخادم في إرسال الرمز";
+"MSA_sms_auth_sub_title" = "رمزك محمي بالفعل من الاختراق";
+
+"MSA_call_auth_title" = "التحقق الصوتي";
+"MSA_call_auth_calling" = "جاري الاتصال... يرجى الانتباه للمكالمات الواردة";
+
+"MSA_mobile_no" = "رقم الهاتف";
+"MSA_veri_code" = "رمز التحقق";
+
+"MSA_sms_auth_send_sms" = "إرسال";
+"MSA_sms_auth_count_down" = "إعادة الإرسال بعد %lu ثانية";
+
+"MSA_submit_button" = "تقديم";
+"MSA_submit_button_waiting" = "تقوم أمان علي بابا JAQ بالتحقق";
+
+"MSA_switch_auth_from_slide_to_call" = "لا تستطيع المرور؟ انقر هنا للحصول على الرمز الصوتي";
+
+"MSA_switch_auth_from_slide_to_call1" = "لا تستطيع المرور؟";
+"MSA_switch_auth_from_slide_to_call2" = "تم تغيير رقم الهاتف";
+"MSA_switch_auth_from_slide_to_call3" = "أو تلقي";
+"MSA_switch_auth_from_slide_to_call4" = "رمز صوتي";
+
+
+
+"MSA_switch_auth_from_sms_to_call" = "لا تستطيع استلام الرمز؟ انقر هنا للرد على المكالمة مرة أخرى.";
+
+"MSA_alert_cancel" = "إلغاء";
+"MSA_alert_ok" = "موافق";
+"MSA_alert_answer" = "رد";
+
+"MSA_veri_code_auth_failed" = "رمز خاطئ. الرجاء إعادة الإدخال.";
+"MSA_veri_code_auth_call_failed" = "رمز خاطئ. الرجاء إغلاق المكالمة وإعادة إرسال الرمز.";
+
+"MSA_slide_auth_ball_title" = "تسجيل الدخول عن طريق التحقق من الكابتشا";
+
+"MSA_pay_attention_to_call" = "الرد على مكالمة التحقق الصوتي الآن؟";
