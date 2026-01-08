@@ -1,0 +1,241 @@
+{
+  "meta": {
+    "apiVersion": "2.1.0",
+    "generatedAt": "2024-01-15T10:30:00Z",
+    "totalProducts": 8,
+    "page": 1,
+    "pageSize": 8,
+    "totalPages": 1,
+    "storeInfo": {
+      "storeId": "STORE-2024-001",
+      "storeName": "テックガジェット プロ",
+      "contact": {
+        "email": "support@techgadgetpro.com",
+        "phone": "+1-800-TECH-PRO",
+        "website": "https:\/\/www.techgadgetpro.com",
+        "socialMedia": {
+          "twitter": "@TechGadgetPro",
+          "instagram": "techgadgetpro",
+          "facebook": "TechGadgetProOfficial"
+        }
+      },
+      "policies": {
+        "shipping": {
+          "freeThreshold": 50.00,
+          "standardDays": "3～5営業日",
+          "expressDays": "1～2営業日",
+          "international": true
+        },
+        "returns": "30日間返金保証",
+        "warranty": "1年間メーカー保証"
+      }
+    }
+  },
+  "categories": [
+    {
+      "id": "CAT-001",
+      "name": "スマートフォン",
+      "slug": "スマートフォン",
+      "description": "最先端技術を搭載した最新スマートフォン",
+      "productCount": 3,
+      "icon": "📱"
+    },
+    {
+      "id": "CAT-002",
+      "name": "ノートパソコン",
+      "slug": "ノートパソコン",
+      "description": "仕事やゲーム向け高性能ノートパソコン",
+      "productCount": 2,
+      "icon": "💻"
+    },
+    {
+      "id": "CAT-003",
+      "name": "ウェアラブル",
+      "slug": "ウェアラブル",
+      "description": "スマートウォッチとフィットネストラッカー",
+      "productCount": 2,
+      "icon": "⌚"
+    },
+    {
+      "id": "CAT-004",
+      "name": "アクセサリー",
+      "slug": "アクセサリー",
+      "description": "欠かせないテックアクセサリー",
+      "productCount": 1,
+      "icon": "🎧"
+    }
+  ],
+  "products": [
+    {
+      "id": "PROD-2024-001",
+      "sku": "IPHONE15-PRO-256",
+      "name": "iPhone 15 Pro",
+      "brand": "Apple",
+      "category": "スマートフォン",
+      "categoryId": "CAT-001",
+      "shortDescription": "チタンデザイン、A17 Proチップ、48MPカメラ",
+      "fullDescription": "iPhone 15 Proは、強靭で軽量な航空宇宙グレードのチタンデザイン、Apple史上最も先進的なProカメラシステム、そして次世代のパフォーマンスとモバイルゲームのための史上最速のチップであるA17 Proを搭載しています。",
+      "price": {
+        "base": 999.00,
+        "currency": "USD",
+        "discount": {
+          "percentage": 5,
+          "originalPrice": 1049.00,
+          "validUntil": "2024-02-28T23:59:59Z",
+          "promoCode": "WINTER2024"
+        },
+        "formatted": "$999.00"
+      },
+      "inventory": {
+        "stock": 45,
+        "lowStockThreshold": 10,
+        "inStock": true,
+        "allowBackorders": false,
+        "sku": "IPHONE15-PRO-256-BLUE"
+      },
+      "specifications": {
+        "display": "6.1インチSuper Retina XDRディスプレイ",
+        "processor": "A17 Proチップ",
+        "memory": "8GB RAM、256GBストレージ",
+        "camera": "48MPメイン | 12MP超広角 | 12MP 3倍望遠",
+        "battery": "最大23時間のビデオ再生",
+        "connectivity": ["5G", "Wi-Fi 6E", "Bluetooth 5.3"],
+        "colors": ["Natural Titanium", "Blue Titanium", "White Titanium", "Black Titanium"]
+      },
+      "images": [
+        {
+          "id": "IMG-001",
+          "url": "https:\/\/cdn.techgadgetpro.com\/products\/iphone15-pro-front.jpg",
+          "alt": "iPhone 15 Pro前面図",
+          "isPrimary": true,
+          "dimensions": {
+            "width": 1200,
+            "height": 800
+          }
+        },
+        {
+          "id": "IMG-002",
+          "url": "https:\/\/cdn.techgadgetpro.com\/products\/iphone15-pro-back.jpg",
+          "alt": "iPhone 15 Pro背面図",
+          "isPrimary": false,
+          "dimensions": {
+            "width": 1200,
+            "height": 800
+          }
+        }
+      ],
+      "ratings": {
+        "average": 4.7,
+        "count": 1245,
+        "distribution": {
+          "5": 850,
+          "4": 300,
+          "3": 75,
+          "2": 15,
+          "1": 5
+        }
+      },
+      "tags": ["apple", "iphone", "pro", "5g", "titanium", "new"],
+      "features": [
+        "Dynamic Island",
+        "Emergency SOS via satellite",
+        "Crash Detection",
+        "Pro camera system",
+        "USB-C connectivity"
+      ],
+      "createdAt": "2023-09-22T00:00:00Z",
+      "updatedAt": "2024-01-14T15:30:00Z"
+    },
+    {
+      "id": "PROD-2024-002",
+      "sku": "S23-ULTRA-512",
+      "name": "Samsung Galaxy S23 Ultra",
+      "brand": "Samsung",
+      "category": "スマートフォン",
+      "categoryId": "CAT-001",
+      "shortDescription": "200MPカメラ、Sペン同梱、Snapdragon 8 Gen 2",
+      "fullDescription": "Galaxy S23 Ultraの200MPカメラで創造性を解き放ちましょう。内蔵Sペンで書く、描く、操作する。Galaxy史上最速のSnapdragonを搭載。",
+      "price": {
+        "base": 1199.99,
+        "currency": "USD",
+        "discount": null,
+        "formatted": "$1,199.99"
+      },
+      "inventory": {
+        "stock": 28,
+        "lowStockThreshold": 10,
+        "inStock": true,
+        "allowBackorders": true,
+        "sku": "S23-ULTRA-512-GREEN"
+      },
+      "specifications": {
+        "display": "6.8インチ Dynamic AMOLED 2X",
+        "processor": "Galaxy向け Snapdragon 8 Gen 2",
+        "memory": "12GB RAM、512GBストレージ",
+        "camera": "200MP広角 | 12MP超広角 | 10MP望遠 (3倍) | 10MP望遠 (10倍)",
+        "battery": "5000mAh、45W急速充電",
+        "connectivity": ["5G", "Wi-Fi 6E", "Bluetooth 5.3"],
+        "colors": ["Phantom Black", "Green", "Cream", "Lavender"]
+      },
+      "images": [
+        {
+          "id": "IMG-003",
+          "url": "https:\/\/cdn.techgadgetpro.com\/products\/s23-ultra-front.jpg",
+          "alt": "Samsung Galaxy S23 Ultra",
+          "isPrimary": true,
+          "dimensions": {
+            "width": 1200,
+            "height": 800
+          }
+        }
+      ],
+      "ratings": {
+        "average": 4.5,
+        "count": 892,
+        "distribution": {
+          "5": 600,
+          "4": 220,
+          "3": 50,
+          "2": 15,
+          "1": 7
+        }
+      },
+      "tags": ["samsung", "android", "ultra", "spen", "200mp"],
+      "features": [
+        "Built-in S Pen",
+        "Nightography camera",
+        "Expert RAW",
+        "45W Super Fast Charging",
+        "Vision Booster"
+      ],
+      "createdAt": "2023-02-17T00:00:00Z",
+      "updatedAt": "2024-01-10T09:15:00Z"
+    }
+  ],
+  "promotions": [
+    {
+      "id": "PROMO-2024-001",
+      "title": "ウィンターセール",
+      "description": "一部商品が最大20%オフ",
+      "type": "パーセンテージ割引",
+      "value": 20,
+      "minimumPurchase": 100.00,
+      "validFrom": "2024-01-01T00:00:00Z",
+      "validUntil": "2024-01-31T23:59:59Z",
+      "applicableCategories": ["smartphones", "laptops"],
+      "promoCode": "WINTER20"
+    },
+    {
+      "id": "PROMO-2024-002",
+      "title": "送料無料",
+      "description": "50ドル以上のご注文で標準送料が無料",
+      "type": "送料無料",
+      "value": 0,
+      "minimumPurchase": 50.00,
+      "validFrom": "2024-01-01T00:00:00Z",
+      "validUntil": "2024-12-31T23:59:59Z",
+      "applicableCategories": ["all"],
+      "promoCode": null
+    }
+  ]
+}
