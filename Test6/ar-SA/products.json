@@ -1,0 +1,241 @@
+{
+  "meta": {
+    "apiVersion": "2.1.0",
+    "generatedAt": "2024-01-15T10:30:00Z",
+    "totalProducts": 8,
+    "page": 1,
+    "pageSize": 8,
+    "totalPages": 1,
+    "storeInfo": {
+      "storeId": "STORE-2024-001",
+      "storeName": "TechGadget Pro",
+      "contact": {
+        "email": "support@techgadgetpro.com",
+        "phone": "+1-800-TECH-PRO",
+        "website": "https:\/\/www.techgadgetpro.com",
+        "socialMedia": {
+          "twitter": "@TechGadgetPro",
+          "instagram": "techgadgetpro",
+          "facebook": "TechGadgetProOfficial"
+        }
+      },
+      "policies": {
+        "shipping": {
+          "freeThreshold": 50.00,
+          "standardDays": "3-5 أيام عمل",
+          "expressDays": "1-2 أيام عمل",
+          "international": true
+        },
+        "returns": "ضمان استعادة الأموال لمدة 30 يومًا",
+        "warranty": "ضمان المصنع لمدة سنة واحدة"
+      }
+    }
+  },
+  "categories": [
+    {
+      "id": "CAT-001",
+      "name": "الهواتف الذكية",
+      "slug": "الهواتف الذكية",
+      "description": "أحدث الهواتف الذكية المزودة بتقنية متطورة",
+      "productCount": 3,
+      "icon": "📱"
+    },
+    {
+      "id": "CAT-002",
+      "name": "أجهزة الكمبيوتر المحمولة",
+      "slug": "أجهزة الكمبيوتر المحمولة",
+      "description": "أجهزة كمبيوتر محمولة عالية الأداء للعمل والألعاب",
+      "productCount": 2,
+      "icon": "💻"
+    },
+    {
+      "id": "CAT-003",
+      "name": "الأجهزة القابلة للارتداء",
+      "slug": "الأجهزة القابلة للارتداء",
+      "description": "الساعات الذكية وأجهزة تتبع اللياقة البدنية",
+      "productCount": 2,
+      "icon": "⌚"
+    },
+    {
+      "id": "CAT-004",
+      "name": "الملحقات",
+      "slug": "الملحقات",
+      "description": "ملحقات تقنية أساسية",
+      "productCount": 1,
+      "icon": "🎧"
+    }
+  ],
+  "products": [
+    {
+      "id": "PROD-2024-001",
+      "sku": "IPHONE15-PRO-256",
+      "name": "آيفون 15 برو",
+      "brand": "آبل",
+      "category": "الهواتف الذكية",
+      "categoryId": "CAT-001",
+      "shortDescription": "تصميم من التيتانيوم، شريحة A17 Pro، كاميرا 48 ميجابكسل",
+      "fullDescription": "يتميز آيفون 15 برو بتصميم من التيتانيوم المستخدم في مجال الطيران، قوي وخفيف، ونظام كاميرا Pro الأكثر تطوراً لدينا، وشريحة A17 Pro — أسرع شريحة لدينا على الإطلاق لتقديم أداء لا مثيل له وألعاب محمولة متفوقة.",
+      "price": {
+        "base": 999.00,
+        "currency": "دولار أمريكي",
+        "discount": {
+          "percentage": 5,
+          "originalPrice": 1049.00,
+          "validUntil": "2024-02-28T23:59:59Z",
+          "promoCode": "WINTER2024"
+        },
+        "formatted": "999.00 دولار أمريكي"
+      },
+      "inventory": {
+        "stock": 45,
+        "lowStockThreshold": 10,
+        "inStock": true,
+        "allowBackorders": false,
+        "sku": "IPHONE15-PRO-256-BLUE"
+      },
+      "specifications": {
+        "display": "شاشة Super Retina XDR مقاس 6.1 بوصة",
+        "processor": "شريحة A17 Pro",
+        "memory": "ذاكرة وصول عشوائي 8 جيجابايت، سعة تخزين 256 جيجابايت",
+        "camera": "كاميرا رئيسية 48 ميجابكسل | كاميرا واسعة للغاية 12 ميجابكسل | كاميرا تقريب بصري 3x بدقة 12 ميجابكسل",
+        "battery": "تشغيل فيديو يصل إلى 23 ساعة",
+        "connectivity": ["5G", "Wi-Fi 6E", "Bluetooth 5.3"],
+        "colors": ["Natural Titanium", "Blue Titanium", "White Titanium", "Black Titanium"]
+      },
+      "images": [
+        {
+          "id": "IMG-001",
+          "url": "https:\/\/cdn.techgadgetpro.com\/products\/iphone15-pro-front.jpg",
+          "alt": "منظر أمامي لهاتف iPhone 15 Pro",
+          "isPrimary": true,
+          "dimensions": {
+            "width": 1200,
+            "height": 800
+          }
+        },
+        {
+          "id": "IMG-002",
+          "url": "https:\/\/cdn.techgadgetpro.com\/products\/iphone15-pro-back.jpg",
+          "alt": "منظر خلفي لهاتف iPhone 15 Pro",
+          "isPrimary": false,
+          "dimensions": {
+            "width": 1200,
+            "height": 800
+          }
+        }
+      ],
+      "ratings": {
+        "average": 4.7,
+        "count": 1245,
+        "distribution": {
+          "5": 850,
+          "4": 300,
+          "3": 75,
+          "2": 15,
+          "1": 5
+        }
+      },
+      "tags": ["apple", "iphone", "pro", "5g", "titanium", "new"],
+      "features": [
+        "Dynamic Island",
+        "Emergency SOS via satellite",
+        "Crash Detection",
+        "Pro camera system",
+        "USB-C connectivity"
+      ],
+      "createdAt": "2023-09-22T00:00:00Z",
+      "updatedAt": "2024-01-14T15:30:00Z"
+    },
+    {
+      "id": "PROD-2024-002",
+      "sku": "S23-ULTRA-512",
+      "name": "Samsung Galaxy S23 Ultra",
+      "brand": "سامسونج",
+      "category": "الهواتف الذكية",
+      "categoryId": "CAT-001",
+      "shortDescription": "كاميرا بدقة 200 ميجابكسل، قلم S Pen مرفق، معالج Snapdragon 8 Gen 2",
+      "fullDescription": "أطلق العنان لإبداعك مع كاميرا Galaxy S23 Ultra بدقة 200 ميجابكسل. اكتب وارسم وتصفح باستخدام قلم S Pen المدمج. مدعوم بأسرع معالج Snapdragon على الإطلاق لهواتف Galaxy.",
+      "price": {
+        "base": 1199.99,
+        "currency": "دولار أمريكي",
+        "discount": null,
+        "formatted": "1,199.99 دولار"
+      },
+      "inventory": {
+        "stock": 28,
+        "lowStockThreshold": 10,
+        "inStock": true,
+        "allowBackorders": true,
+        "sku": "S23-ULTRA-512-GREEN"
+      },
+      "specifications": {
+        "display": "شاشة Dynamic AMOLED 2X بحجم 6.8 بوصة",
+        "processor": "Snapdragon 8 Gen 2 for Galaxy",
+        "memory": "ذاكرة وصول عشوائي (RAM) سعة 12 جيجابايت، سعة تخزين 512 جيجابايت",
+        "camera": "200 ميجابكسل عريضة | 12 ميجابكسل فائقة الاتساع | 10 ميجابكسل تقريب بصري (3x) | 10 ميجابكسل تقريب بصري (10x)",
+        "battery": "بطارية 5000 مللي أمبير، شحن سريع بقوة 45 واط",
+        "connectivity": ["5G", "Wi-Fi 6E", "Bluetooth 5.3"],
+        "colors": ["Phantom Black", "Green", "Cream", "Lavender"]
+      },
+      "images": [
+        {
+          "id": "IMG-003",
+          "url": "https:\/\/cdn.techgadgetpro.com\/products\/s23-ultra-front.jpg",
+          "alt": "Samsung Galaxy S23 Ultra",
+          "isPrimary": true,
+          "dimensions": {
+            "width": 1200,
+            "height": 800
+          }
+        }
+      ],
+      "ratings": {
+        "average": 4.5,
+        "count": 892,
+        "distribution": {
+          "5": 600,
+          "4": 220,
+          "3": 50,
+          "2": 15,
+          "1": 7
+        }
+      },
+      "tags": ["samsung", "android", "ultra", "spen", "200mp"],
+      "features": [
+        "Built-in S Pen",
+        "Nightography camera",
+        "Expert RAW",
+        "45W Super Fast Charging",
+        "Vision Booster"
+      ],
+      "createdAt": "2023-02-17T00:00:00Z",
+      "updatedAt": "2024-01-10T09:15:00Z"
+    }
+  ],
+  "promotions": [
+    {
+      "id": "PROMO-2024-001",
+      "title": "تخفيضات الشتاء",
+      "description": "خصم يصل إلى 20% على سلع مختارة",
+      "type": "خصم_نسبي",
+      "value": 20,
+      "minimumPurchase": 100.00,
+      "validFrom": "2024-01-01T00:00:00Z",
+      "validUntil": "2024-01-31T23:59:59Z",
+      "applicableCategories": ["smartphones", "laptops"],
+      "promoCode": "WINTER20"
+    },
+    {
+      "id": "PROMO-2024-002",
+      "title": "شحن مجاني",
+      "description": "شحن قياسي مجاني للطلبات التي تزيد قيمتها عن 50 دولارًا",
+      "type": "شحن_مجاني",
+      "value": 0,
+      "minimumPurchase": 50.00,
+      "validFrom": "2024-01-01T00:00:00Z",
+      "validUntil": "2024-12-31T23:59:59Z",
+      "applicableCategories": ["all"],
+      "promoCode": null
+    }
+  ]
+}
