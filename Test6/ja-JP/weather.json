@@ -1,0 +1,282 @@
+{
+  "api": {
+    "name": "WeatherPro API",
+    "version": "2.5.1",
+    "status": "稼働中",
+    "responseTime": "125ms",
+    "units": "メートル法",
+    "language": "en",
+    "license": "CC BY-SA 4.0",
+    "attribution": "WeatherPro 提供データ © 2024",
+    "documentation": "https:\/\/api.weatherpro.com\/docs\/v2"
+  },
+  "location": {
+    "id": "5391959",
+    "name": "サンフランシスコ",
+    "region": "カリフォルニア",
+    "country": "アメリカ合衆国",
+    "countryCode": "US",
+    "type": "市",
+    "coordinates": {
+      "latitude": 37.77493,
+      "longitude": -122.41942,
+      "elevation": 16
+    },
+    "timezone": {
+      "name": "America\/Los_Angeles",
+      "offset": -8,
+      "offsetSeconds": -28800,
+      "currentTime": "2024-01-15T14:30:00-08:00",
+      "isDst": false
+    },
+    "administrative": {
+      "level1": "カリフォルニア",
+      "level2": "サンフランシスコ郡",
+      "level3": "サンフランシスコ"
+    }
+  },
+  "current": {
+    "observationTime": "2024-01-15T14:30:00-08:00",
+    "temperature": {
+      "actual": 15.2,
+      "feelsLike": 14.8,
+      "min": 12.4,
+      "max": 16.8,
+      "unit": "摂氏",
+      "formatted": "15°C"
+    },
+    "condition": {
+      "code": 1000,
+      "text": "晴れ",
+      "icon": "https:\/\/cdn.weatherpro.com\/icons\/day\/113.png",
+      "isDay": true,
+      "category": "快晴"
+    },
+    "wind": {
+      "speed": 12.5,
+      "speedUnit": "km\/h",
+      "gust": 18.3,
+      "direction": 245,
+      "directionCardinal": "西南西",
+      "formatted": "西南西 12.5 km\/h"
+    },
+    "precipitation": {
+      "total": 0.0,
+      "type": "なし",
+      "probability": 10,
+      "unit": "mm",
+      "lastHour": 0.0,
+      "last3Hours": 0.0
+    },
+    "humidity": {
+      "relative": 65,
+      "dewPoint": 8.7,
+      "unit": "%"
+    },
+    "pressure": {
+      "seaLevel": 1013,
+      "groundLevel": 1015,
+      "trend": "安定",
+      "unit": "hPa"
+    },
+    "visibility": {
+      "distance": 16.0,
+      "unit": "km",
+      "condition": "良好"
+    },
+    "uvIndex": {
+      "value": 4,
+      "category": "中程度",
+      "protectionRequired": true,
+      "maxUvToday": 5
+    },
+    "airQuality": {
+      "index": 42,
+      "category": "良好",
+      "pollutants": {
+        "co": 250.1,
+        "no2": 12.3,
+        "o3": 45.2,
+        "so2": 1.2,
+        "pm2_5": 8.5,
+        "pm10": 15.2
+      },
+      "dominantPollutant": "pm2_5",
+      "healthRecommendations": {
+        "general": "大気質は良好です。",
+        "sensitive": "敏感な方は、長時間の屋外での激しい運動を減らすことをご検討ください。"
+      }
+    },
+    "astronomy": {
+      "sun": {
+        "rise": "2024-01-15T07:22:00-08:00",
+        "set": "2024-01-15T17:18:00-08:00",
+        "duration": "9時間56分"
+      },
+      "moon": {
+        "phase": "満ちていく三日月",
+        "illumination": 28,
+        "age": 4,
+        "rise": "2024-01-15T10:15:00-08:00",
+        "set": "2024-01-15T22:45:00-08:00"
+      }
+    }
+  },
+  "forecast": {
+    "daily": [
+      {
+        "date": "2024-01-15",
+        "dayOfWeek": "月曜日",
+        "summary": "晴れ、午後には一部雲。快適です。",
+        "temperature": {
+          "min": 12.4,
+          "max": 16.8,
+          "morning": 13.2,
+          "afternoon": 16.5,
+          "evening": 14.8,
+          "night": 12.8,
+          "unit": "摂氏"
+        },
+        "condition": {
+          "day": {
+            "code": 1000,
+            "text": "晴れ",
+            "icon": "https:\/\/cdn.weatherpro.com\/icons\/day\/113.png"
+          },
+          "night": {
+            "code": 1003,
+            "text": "一部曇り",
+            "icon": "https:\/\/cdn.weatherpro.com\/icons\/night\/116.png"
+          }
+        },
+        "precipitation": {
+          "total": 0.0,
+          "probability": 10,
+          "type": "なし",
+          "unit": "mm"
+        },
+        "wind": {
+          "maxSpeed": 18.3,
+          "avgSpeed": 12.5,
+          "direction": "西南西",
+          "gust": 25.0
+        },
+        "humidity": {
+          "min": 60,
+          "max": 85,
+          "avg": 72
+        },
+        "uvIndex": {
+          "max": 5,
+          "category": "中程度"
+        },
+        "sun": {
+          "rise": "07:22",
+          "set": "17:18",
+          "duration": "9時間56分"
+        }
+      }
+    ],
+    "hourly": [
+      {
+        "time": "2024-01-15T14:00:00-08:00",
+        "temperature": 15.2,
+        "feelsLike": 14.8,
+        "condition": {
+          "code": 1000,
+          "text": "晴れ",
+          "icon": "https:\/\/cdn.weatherpro.com\/icons\/day\/113.png",
+          "isDay": true
+        },
+        "precipitation": {
+          "probability": 10,
+          "amount": 0.0,
+          "type": "なし"
+        },
+        "wind": {
+          "speed": 12.5,
+          "direction": 245,
+          "gust": 18.3
+        },
+        "humidity": 65,
+        "visibility": 16.0,
+        "uvIndex": 4
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "id": "CAL-2024-001",
+      "type": "風",
+      "severity": "中程度",
+      "certainty": "可能性が高い",
+      "urgency": "予想される",
+      "headline": "強風注意報",
+      "description": "今夜は、持続的な風速30〜40km\/h、突風は最大60km\/hに達する見込みです。",
+      "instruction": "屋外の物を固定してください。運転の際はご注意ください。",
+      "effective": "2024-01-15T18:00:00-08:00",
+      "expires": "2024-01-16T06:00:00-08:00",
+      "areas": ["San Francisco", "Bay Area"],
+      "source": "国立気象局"
+    }
+  ],
+  "historical": {
+    "yesterday": {
+      "date": "2024-01-14",
+      "temperature": {
+        "avg": 14.2,
+        "min": 11.8,
+        "max": 16.5
+      },
+      "precipitation": {
+        "total": 2.5,
+        "unit": "mm"
+      },
+      "condition": "一部曇り、弱い雨"
+    },
+    "averages": {
+      "month": "1月",
+      "temperature": {
+        "avg": 13.5,
+        "avgMin": 10.2,
+        "avgMax": 16.8,
+        "recordHigh": 22.8,
+        "recordLow": 3.9
+      },
+      "precipitation": {
+        "avgTotal": 114.3,
+        "avgRainyDays": 7,
+        "unit": "mm"
+      }
+    }
+  },
+  "metadata": {
+    "request": {
+      "query": "サンフランシスコ",
+      "type": "都市",
+      "language": "en",
+      "units": "メートル法",
+      "timestamp": "2024-01-15T22:30:00Z"
+    },
+    "cache": {
+      "isCached": false,
+      "cacheAge": null,
+      "cacheKey": "weather:san-francisco:202401151430"
+    },
+    "dataSources": [
+      {
+        "name": "国立気象局",
+        "confidence": 0.95
+      },
+      {
+        "name": "ウェザープロ ステーション",
+        "confidence": 0.98
+      }
+    ],
+    "dataFreshness": {
+      "current": "5分前",
+      "forecast": "毎時更新",
+      "lastUpdated": "2024-01-15T14:25:00-08:00"
+    }
+  }
+}
