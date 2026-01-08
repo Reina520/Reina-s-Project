@@ -1,0 +1,282 @@
+{
+  "api": {
+    "name": "واجهة برمجة تطبيقات WeatherPro",
+    "version": "2.5.1",
+    "status": "قيد التشغيل",
+    "responseTime": "125ms",
+    "units": "متري",
+    "language": "en",
+    "license": "CC BY-SA 4.0",
+    "attribution": "البيانات مقدمة من WeatherPro © 2024",
+    "documentation": "https:\/\/api.weatherpro.com\/docs\/v2"
+  },
+  "location": {
+    "id": "5391959",
+    "name": "سان فرانسيسكو",
+    "region": "كاليفورنيا",
+    "country": "الولايات المتحدة",
+    "countryCode": "US",
+    "type": "مدينة",
+    "coordinates": {
+      "latitude": 37.77493,
+      "longitude": -122.41942,
+      "elevation": 16
+    },
+    "timezone": {
+      "name": "America\/Los_Angeles",
+      "offset": -8,
+      "offsetSeconds": -28800,
+      "currentTime": "2024-01-15T14:30:00-08:00",
+      "isDst": false
+    },
+    "administrative": {
+      "level1": "كاليفورنيا",
+      "level2": "مقاطعة سان فرانسيسكو",
+      "level3": "سان فرانسيسكو"
+    }
+  },
+  "current": {
+    "observationTime": "2024-01-15T14:30:00-08:00",
+    "temperature": {
+      "actual": 15.2,
+      "feelsLike": 14.8,
+      "min": 12.4,
+      "max": 16.8,
+      "unit": "مئوية",
+      "formatted": "15°C"
+    },
+    "condition": {
+      "code": 1000,
+      "text": "مشمس",
+      "icon": "https:\/\/cdn.weatherpro.com\/icons\/day\/113.png",
+      "isDay": true,
+      "category": "صافٍ"
+    },
+    "wind": {
+      "speed": 12.5,
+      "speedUnit": "كم\/ساعة",
+      "gust": 18.3,
+      "direction": 245,
+      "directionCardinal": "غ غ ج",
+      "formatted": "12.5 كم\/ساعة غ غ ج"
+    },
+    "precipitation": {
+      "total": 0.0,
+      "type": "لا شيء",
+      "probability": 10,
+      "unit": "مم",
+      "lastHour": 0.0,
+      "last3Hours": 0.0
+    },
+    "humidity": {
+      "relative": 65,
+      "dewPoint": 8.7,
+      "unit": "%"
+    },
+    "pressure": {
+      "seaLevel": 1013,
+      "groundLevel": 1015,
+      "trend": "مستقر",
+      "unit": "هكتوباسكال"
+    },
+    "visibility": {
+      "distance": 16.0,
+      "unit": "كم",
+      "condition": "جيد"
+    },
+    "uvIndex": {
+      "value": 4,
+      "category": "معتدل",
+      "protectionRequired": true,
+      "maxUvToday": 5
+    },
+    "airQuality": {
+      "index": 42,
+      "category": "جيد",
+      "pollutants": {
+        "co": 250.1,
+        "no2": 12.3,
+        "o3": 45.2,
+        "so2": 1.2,
+        "pm2_5": 8.5,
+        "pm10": 15.2
+      },
+      "dominantPollutant": "PM2.5",
+      "healthRecommendations": {
+        "general": "جودة الهواء مرضية.",
+        "sensitive": "يجب على الأشخاص ذوي الحساسية المفرطة التفكير في تقليل المجهود البدني المطول في الهواء الطلق."
+      }
+    },
+    "astronomy": {
+      "sun": {
+        "rise": "2024-01-15T07:22:00-08:00",
+        "set": "2024-01-15T17:18:00-08:00",
+        "duration": "9 ساعات و 56 دقيقة"
+      },
+      "moon": {
+        "phase": "هلال متزايد",
+        "illumination": 28,
+        "age": 4,
+        "rise": "2024-01-15T10:15:00-08:00",
+        "set": "2024-01-15T22:45:00-08:00"
+      }
+    }
+  },
+  "forecast": {
+    "daily": [
+      {
+        "date": "2024-01-15",
+        "dayOfWeek": "الاثنين",
+        "summary": "مشمس مع بعض السحب بعد الظهر. لطيف.",
+        "temperature": {
+          "min": 12.4,
+          "max": 16.8,
+          "morning": 13.2,
+          "afternoon": 16.5,
+          "evening": 14.8,
+          "night": 12.8,
+          "unit": "مئوية"
+        },
+        "condition": {
+          "day": {
+            "code": 1000,
+            "text": "مشمس",
+            "icon": "https:\/\/cdn.weatherpro.com\/icons\/day\/113.png"
+          },
+          "night": {
+            "code": 1003,
+            "text": "غائم جزئياً",
+            "icon": "https:\/\/cdn.weatherpro.com\/icons\/night\/116.png"
+          }
+        },
+        "precipitation": {
+          "total": 0.0,
+          "probability": 10,
+          "type": "لا شيء",
+          "unit": "مم"
+        },
+        "wind": {
+          "maxSpeed": 18.3,
+          "avgSpeed": 12.5,
+          "direction": "غ غ ج",
+          "gust": 25.0
+        },
+        "humidity": {
+          "min": 60,
+          "max": 85,
+          "avg": 72
+        },
+        "uvIndex": {
+          "max": 5,
+          "category": "معتدل"
+        },
+        "sun": {
+          "rise": "07:22",
+          "set": "17:18",
+          "duration": "9 ساعات و 56 دقيقة"
+        }
+      }
+    ],
+    "hourly": [
+      {
+        "time": "2024-01-15T14:00:00-08:00",
+        "temperature": 15.2,
+        "feelsLike": 14.8,
+        "condition": {
+          "code": 1000,
+          "text": "مشمس",
+          "icon": "https:\/\/cdn.weatherpro.com\/icons\/day\/113.png",
+          "isDay": true
+        },
+        "precipitation": {
+          "probability": 10,
+          "amount": 0.0,
+          "type": "لا شيء"
+        },
+        "wind": {
+          "speed": 12.5,
+          "direction": 245,
+          "gust": 18.3
+        },
+        "humidity": 65,
+        "visibility": 16.0,
+        "uvIndex": 4
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "id": "CAL-2024-001",
+      "type": "رياح",
+      "severity": "معتدل",
+      "certainty": "من المرجح",
+      "urgency": "متوقع",
+      "headline": "تحذير رياح",
+      "description": "رياح مستمرة تتراوح سرعتها بين 30-40 كم\/ساعة مع هبات تصل إلى 60 كم\/ساعة متوقعة هذا المساء.",
+      "instruction": "تأمين الأشياء الخارجية. توخي الحذر عند القيادة.",
+      "effective": "2024-01-15T18:00:00-08:00",
+      "expires": "2024-01-16T06:00:00-08:00",
+      "areas": ["San Francisco", "Bay Area"],
+      "source": "هيئة الأرصاد الجوية الوطنية"
+    }
+  ],
+  "historical": {
+    "yesterday": {
+      "date": "2024-01-14",
+      "temperature": {
+        "avg": 14.2,
+        "min": 11.8,
+        "max": 16.5
+      },
+      "precipitation": {
+        "total": 2.5,
+        "unit": "مم"
+      },
+      "condition": "غائم جزئيًا مع أمطار خفيفة"
+    },
+    "averages": {
+      "month": "يناير",
+      "temperature": {
+        "avg": 13.5,
+        "avgMin": 10.2,
+        "avgMax": 16.8,
+        "recordHigh": 22.8,
+        "recordLow": 3.9
+      },
+      "precipitation": {
+        "avgTotal": 114.3,
+        "avgRainyDays": 7,
+        "unit": "مم"
+      }
+    }
+  },
+  "metadata": {
+    "request": {
+      "query": "سان فرانسيسكو",
+      "type": "مدينة",
+      "language": "en",
+      "units": "متري",
+      "timestamp": "2024-01-15T22:30:00Z"
+    },
+    "cache": {
+      "isCached": false,
+      "cacheAge": null,
+      "cacheKey": "weather:san-francisco:202401151430"
+    },
+    "dataSources": [
+      {
+        "name": "هيئة الأرصاد الجوية الوطنية",
+        "confidence": 0.95
+      },
+      {
+        "name": "محطات WeatherPro",
+        "confidence": 0.98
+      }
+    ],
+    "dataFreshness": {
+      "current": "منذ 5 دقائق",
+      "forecast": "محدث كل ساعة",
+      "lastUpdated": "2024-01-15T14:25:00-08:00"
+    }
+  }
+}
